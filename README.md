@@ -22,15 +22,15 @@ Type of task | Source directory | Destination directory
 ## Configuration
 There are three files in the root of the project to control the names and sizes of the resulting images.
 
-`map-favicons.json` is an object of arrays of names, widths and heights of favicons for performing tasks of the type `1`.
-`map-resizing.json` is an array of widths for performing tasks of the type `2`.
-`map-resizing-wh.json` is an object of arrays of widths and heights for performing tasks of the type `3`.
+- `map-favicons.json` is an object of arrays of names, widths and heights of favicons for performing tasks of the type `1`.
+- `map-resizing.json` is an array of widths for performing tasks of the type `2`.
+- `map-resizing-wh.json` is an object of arrays of widths and heights for performing tasks of the type `3`.
 
 ## Task Descriptions
 ### Tasks of cleaning the destination directories
-`cleanFav` - cleans `./dest-favicons`
-`cleanRes` - cleans `./dest-resizing`
-`cleanResWH` - cleans `./dest-resizing-wh`
+- `cleanFav` - cleans `./dest-favicons`
+- `cleanRes` - cleans `./dest-resizing`
+- `cleanResWH` - cleans `./dest-resizing-wh`
 
 ### Main tasks
 
@@ -50,10 +50,10 @@ It is always executed after the `favicons` task, as it requires the `favicon-16x
 The `ico` task converts the `favicon-16x16.png` file to the `favicon.ico` file, which it places in the same directory.
 
 ### Combined tasks
-`faviconsIco` = `favicons` + `ico`
-`cleanAll` = `cleanFav` + `cleanRes` + `cleanResWH`
-`favAll` = `faviconsIco` + `windows` + `android` + `appleIcon` + `yandex`
-`all` = `favAll` + `resizing` + `resizingWH`
+- `faviconsIco` = `favicons` + `ico`
+- `cleanAll` = `cleanFav` + `cleanRes` + `cleanResWH`
+- `favAll` = `faviconsIco` + `windows` + `android` + `appleIcon` + `yandex`
+- `all` = `favAll` + `resizing` + `resizingWH`
 
 ## A list of commands with notes
 
