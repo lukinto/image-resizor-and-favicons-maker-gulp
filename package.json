@@ -1,0 +1,35 @@
+{
+  "name": "image-resizor-and-favicons-maker-gulp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Image resizor and favicons maker using gulp.",
+  "main": "gulpfile.babel.js",
+  "scripts": {
+    "cleanf": "gulp cleanf",
+    "cleanr": "gulp cleanr",
+    "cleanrwh": "gulp cleanrwh",
+    "cleanall": "gulp cleanall",
+    "favall": "gulp favall",
+    "rw": "gulp",
+    "rwh": "gulp rwh",
+    "all": "gulp all",
+    "fav": "gulp fav",
+    "win": "gulp win",
+    "and": "gulp and",
+    "app": "gulp app",
+    "yan": "gulp yan"
+  },
+  "keywords": [],
+  "author": ":lukinto",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/register": "^7.17.7",
+    "del": "^6.0.0",
+    "flat-map": "^1.0.0",
+    "gulp": "^4.0.2",
+    "gulp-scale-images": "^3.0.1",
+    "png-to-ico": "^2.1.4"
+  }
+}

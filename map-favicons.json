@@ -1,0 +1,60 @@
+{
+  "favicons": {
+    "names": [
+      "favicon-16x16",
+      "favicon-32x32"
+    ],
+    "width": [16, 32],
+    "height": [16, 32]
+  },
+  "windows": {
+    "names": [
+      "mstile-70x70",
+      "mstile-144x144",
+      "mstile-150x150",
+      "mstile-310x150",
+      "mstile-310x310"
+    ],
+    "width": [70, 144, 150, 310, 310],
+    "height": [70, 144, 150, 150, 310]
+  },
+  "android": {
+    "names": [
+      "android-chrome-36x36",
+      "android-chrome-48x48",
+      "android-chrome-72x72",
+      "android-chrome-96x96",
+      "android-chrome-144x144",
+      "android-chrome-192x192",
+      "android-chrome-256x256",
+      "android-chrome-384x384",
+      "android-chrome-512x512"
+    ],
+    "width": [36, 48, 72, 96, 144, 192, 256, 384, 512],
+    "height": [36, 48, 72, 96, 144, 192, 256, 384, 512]
+  },
+  "appleIcon": {
+    "names": [
+      "apple-touch-icon",
+      "apple-touch-icon-57x57",
+      "apple-touch-icon-60x60",
+      "apple-touch-icon-72x72",
+      "apple-touch-icon-76x76",
+      "apple-touch-icon-114x114",
+      "apple-touch-icon-120x120",
+      "apple-touch-icon-144x144",
+      "apple-touch-icon-152x152",
+      "apple-touch-icon-167x167",
+      "apple-touch-icon-180x180",
+      "apple-touch-icon-1024x1024",
+      "apple-touch-icon-precomposed"
+    ],
+    "width": [180, 57, 60, 72, 76, 114, 120, 144, 152, 167, 180, 1024, 180],
+    "height": [180, 57, 60, 72, 76, 114, 120, 144, 152, 167, 180, 1024, 180]
+  },
+  "yandex": {
+    "names": ["yandex-browser-50x50"],
+    "width": [50],
+    "height": [50]
+  }
+}
