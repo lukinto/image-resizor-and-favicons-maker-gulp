@@ -36,14 +36,14 @@ There are three files in the root of the project to control the names and sizes 
 
 Type of task | Name | Description
 -- | -- | --
-`1` | `favicons` | Makes favicons using the `mapFav.favicons` object
-`1` | `windows` | Makes favicons using the `mapFav.windows` object
-`1` | `android` | Makes favicons using the `mapFav.android` object
-`1` | `appleIcon` | Makes favicons using the `mapFav.appleIcon` object
-`1` | `yandex` |  Makes favicons using the `mapFav.yandex` object
+`1` | `favicons` | Makes favicons using the `favicons` sub object of the `map-favicons.json` object
+`1` | `windows` | Makes favicons using the `windows` sub object of the `map-favicons.json` object
+`1` | `android` | Makes favicons using the `android` sub object of the `map-favicons.json` object
+`1` | `appleIcon` | Makes favicons using the `appleIcon` sub object of the `map-favicons.json` object
+`1` | `yandex` |  Makes favicons using the `yandex` sub object of the `map-favicons.json` object
 `1` | `ico` | description view after the table
-`2` | `resizing` | Resizes images using the `mapRes` array
-`3` | `resizingWH` | Resizes images using the `mapResWH` object
+`2` | `resizing` | Resizes images using the `map-resizing.json` array
+`3` | `resizingWH` | Resizes images using the `map-resizing-wh.json` object
 
 #### The `ico` task
 It is always executed after the `favicons` task, as it requires the `favicon-16x16.png` file that the `favicons` task creates.
